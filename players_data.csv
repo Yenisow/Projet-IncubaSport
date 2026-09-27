@@ -1,0 +1,181 @@
+﻿id_joueur,nom,age,poste,academie,taille_cm,poids_kg,vitesse_max_kmh,distance_moy_km,passes_reussies_pct,duels_gagnes_pct,buts_saison,tirs_cadres_pct,metrique_specifique_nom,metrique_specifique_valeur,score_potentiel
+IS-149,Cheikh Mbaye,18,Attaquant,Génération Foot (Dakar),180,70.5,36.8,7.63,85.5,72.0,10,49.3,efficacite_finition_pct,41.7,88.7
+IS-061,Idrissa Sow,16,Attaquant,Diourbel Espoir Foot,179,72.5,31.4,7.69,84.3,69.3,14,40.6,efficacite_finition_pct,45.7,77.3
+IS-053,Serigne Diouf,16,Milieu,Diambars (Saly),174,64.0,32.5,9.81,83.5,60.2,1,41.8,interceptions_par_match,3.7,75.0
+IS-170,Youssou Lo,17,Défenseur,AS Pikine Formation,183,72.6,32.6,10.06,77.2,70.0,1,45.2,tacles_reussis_pct,80.0,74.2
+IS-107,Abdoulaye Sy,17,Milieu,Diourbel Espoir Foot,178,72.7,30.8,9.11,73.6,64.1,4,44.1,interceptions_par_match,4.3,72.6
+IS-074,Lamine Faye,16,Défenseur,Aspire Academy Dakar,164,63.9,29.4,9.3,83.9,72.1,2,41.4,tacles_reussis_pct,80.9,72.5
+IS-075,Boubacar Ba,17,Gardien,Génération Foot (Dakar),189,80.3,27.8,5.4,71.3,57.9,0,0.0,arrets_pct,71.6,72.2
+IS-037,El Hadji Sene,17,Gardien,AS Pikine Formation,182,73.4,27.9,6.75,68.6,61.4,0,0.0,arrets_pct,70.7,71.7
+IS-052,Youssou Fall,15,Gardien,Diourbel Espoir Foot,186,68.9,25.8,4.6,73.6,78.5,0,0.0,arrets_pct,66.9,70.3
+IS-067,Serigne Seck,17,Défenseur,Diambars (Saly),169,65.8,28.5,9.82,77.3,72.5,0,39.8,tacles_reussis_pct,82.5,70.0
+IS-133,Moussa Diouf,16,Défenseur,Saint-Louis Jeunes Talents,183,70.8,25.5,10.4,78.8,80.7,0,33.8,tacles_reussis_pct,84.4,69.9
+IS-015,Saliou Diallo,18,Gardien,Saint-Louis Jeunes Talents,184,69.6,25.4,6.28,69.8,56.3,0,0.0,arrets_pct,80.3,69.8
+IS-006,Aliou Ba,17,Milieu,Saint-Louis Jeunes Talents,178,71.2,32.3,10.38,91.8,62.0,0,28.7,interceptions_par_match,2.1,69.8
+IS-169,Saliou Wade,17,Défenseur,Saint-Louis Jeunes Talents,172,69.5,29.4,9.84,73.1,64.5,1,37.3,tacles_reussis_pct,87.7,69.4
+IS-076,Fallou Gueye,17,Attaquant,Académie Mbour Sport,177,69.3,31.8,9.25,77.2,56.7,13,51.9,efficacite_finition_pct,48.8,69.4
+IS-087,Moussa Wade,16,Attaquant,AS Pikine Formation,176,70.3,34.6,10.5,68.5,66.5,10,46.8,efficacite_finition_pct,41.9,68.0
+IS-005,Youssou Sow,17,Défenseur,AS Pikine Formation,173,69.1,31.8,9.29,83.3,82.4,0,46.6,tacles_reussis_pct,62.9,67.9
+IS-116,Abdoulaye Diallo,15,Attaquant,Diambars (Saly),179,70.9,31.7,8.73,86.0,67.1,8,43.3,efficacite_finition_pct,35.1,67.7
+IS-002,Amadou Diallo,17,Défenseur,Thiès Foot Élite,175,68.2,29.1,9.03,83.3,63.7,1,26.8,tacles_reussis_pct,79.8,67.3
+IS-176,Pape Ndiaye,17,Gardien,Aspire Academy Dakar,183,72.6,24.3,5.97,75.8,71.6,0,0.0,arrets_pct,68.1,67.2
+IS-113,Souleymane Diouf,16,Attaquant,Diambars (Saly),184,70.7,33.3,8.49,75.1,51.6,18,35.5,efficacite_finition_pct,49.3,67.1
+IS-012,Amadou Wade,19,Milieu,Diambars (Saly),182,72.9,31.4,8.88,89.2,59.0,2,33.9,interceptions_par_match,2.8,66.8
+IS-080,Fallou Sy,17,Défenseur,Aspire Academy Dakar,175,70.6,29.1,9.56,75.1,70.1,2,56.5,tacles_reussis_pct,80.5,66.6
+IS-055,Cheikh Diouf,18,Attaquant,Diambars (Saly),172,66.9,32.8,8.84,74.3,53.7,12,53.0,efficacite_finition_pct,49.3,66.6
+IS-048,Fallou Thiam,15,Milieu,Académie Mbour Sport,172,70.7,32.4,9.7,81.5,70.7,0,27.2,interceptions_par_match,2.2,65.5
+IS-019,Amadou Diop,17,Attaquant,Thiès Foot Élite,171,65.9,35.8,7.82,70.3,43.3,7,50.5,efficacite_finition_pct,48.9,65.3
+IS-085,Idrissa Wade,17,Gardien,Aspire Academy Dakar,185,74.1,23.1,5.38,68.9,82.0,0,0.0,arrets_pct,69.2,65.3
+IS-161,Serigne Diop,19,Milieu,Aspire Academy Dakar,176,69.7,34.1,10.77,80.4,67.4,4,40.1,interceptions_par_match,2.1,65.3
+IS-108,Pape Sy,16,Défenseur,Diambars (Saly),181,71.7,33.8,10.15,81.2,62.5,3,38.9,tacles_reussis_pct,70.9,65.0
+IS-039,Boubacar Diouf,17,Défenseur,Diambars (Saly),175,69.0,26.6,9.81,93.0,65.6,2,36.1,tacles_reussis_pct,74.6,64.7
+IS-177,Lamine Wade,15,Défenseur,Académie Mbour Sport,177,71.8,28.6,9.16,71.4,65.6,1,42.0,tacles_reussis_pct,87.5,64.2
+IS-062,Lamine Ba,17,Attaquant,Aspire Academy Dakar,186,78.2,33.3,8.77,61.3,55.7,7,37.8,efficacite_finition_pct,53.1,64.0
+IS-043,Babacar Ba,18,Attaquant,Saint-Louis Jeunes Talents,166,67.6,32.3,8.71,81.4,52.1,5,44.4,efficacite_finition_pct,42.1,63.8
+IS-040,El Hadji Diagne,17,Défenseur,Académie Mbour Sport,165,64.3,29.6,10.67,80.2,62.0,1,31.3,tacles_reussis_pct,77.5,63.4
+IS-101,Serigne Sow,18,Milieu,AS Pikine Formation,176,72.3,28.2,10.23,84.6,57.7,6,35.2,interceptions_par_match,3.5,62.7
+IS-021,Mor Diouf,15,Attaquant,AS Pikine Formation,167,65.4,35.5,7.71,70.5,61.2,11,45.0,efficacite_finition_pct,36.8,62.6
+IS-003,Ousmane Cissé,17,Attaquant,AS Pikine Formation,175,67.0,32.9,10.21,69.6,50.9,6,52.9,efficacite_finition_pct,48.2,62.3
+IS-173,Pape Sene,16,Gardien,Aspire Academy Dakar,180,78.0,24.6,4.77,70.7,60.5,0,0.0,arrets_pct,72.8,62.1
+IS-004,Malick Sy,17,Attaquant,Diambars (Saly),180,71.8,33.1,7.97,73.4,55.9,10,55.0,efficacite_finition_pct,40.0,61.8
+IS-018,Ousmane Faye,17,Attaquant,Thiès Foot Élite,177,70.9,31.3,9.3,75.2,65.7,8,42.4,efficacite_finition_pct,36.0,61.7
+IS-034,Youssou Toure,16,Défenseur,Saint-Louis Jeunes Talents,170,65.6,28.0,9.96,84.5,73.3,1,51.2,tacles_reussis_pct,70.7,61.6
+IS-068,El Hadji Fall,15,Défenseur,Thiès Foot Élite,176,71.0,30.9,11.27,76.0,77.3,1,56.0,tacles_reussis_pct,69.3,61.6
+IS-117,Lamine Gueye,18,Défenseur,AS Pikine Formation,181,72.1,28.7,11.23,80.1,70.7,0,24.8,tacles_reussis_pct,73.7,61.6
+IS-010,Serigne Ndoye,17,Défenseur,Thiès Foot Élite,184,75.8,28.9,9.82,87.6,62.3,0,37.2,tacles_reussis_pct,71.8,61.5
+IS-024,Mor Camara,17,Défenseur,Génération Foot (Dakar),177,69.2,28.3,9.6,78.9,74.3,0,32.2,tacles_reussis_pct,71.4,61.5
+IS-096,Ibrahima Kane,17,Défenseur,AS Pikine Formation,184,70.1,30.2,9.59,82.5,77.5,3,20.3,tacles_reussis_pct,62.6,61.2
+IS-057,El Hadji Camara,15,Attaquant,Aspire Academy Dakar,174,71.0,31.5,7.68,71.7,63.4,5,40.7,efficacite_finition_pct,43.0,60.9
+IS-171,Souleymane Faye,19,Gardien,Aspire Academy Dakar,177,67.1,24.0,4.93,75.5,56.7,0,0.0,arrets_pct,73.9,60.9
+IS-138,Cheikh Fall,17,Milieu,Thiès Foot Élite,176,70.0,27.0,10.2,91.5,65.9,3,30.6,interceptions_par_match,2.1,60.3
+IS-081,Saliou Ba,17,Défenseur,Thiès Foot Élite,173,70.9,28.4,9.22,75.5,68.4,1,39.1,tacles_reussis_pct,75.4,60.0
+IS-063,Cheikh Camara,18,Gardien,Diambars (Saly),188,75.0,23.4,5.74,68.5,48.3,0,0.0,arrets_pct,82.4,59.9
+IS-152,Cheikh Faye,16,Attaquant,AS Pikine Formation,169,67.1,31.1,7.64,68.7,63.6,11,47.0,efficacite_finition_pct,43.6,59.9
+IS-060,Aliou Diop,17,Attaquant,Diambars (Saly),181,77.4,28.8,6.7,78.0,64.5,5,33.1,efficacite_finition_pct,38.9,59.8
+IS-147,Souleymane Ndiaye,15,Attaquant,Thiès Foot Élite,181,67.5,32.2,8.68,70.4,66.8,5,43.3,efficacite_finition_pct,38.1,59.5
+IS-026,Serigne Thiam,19,Milieu,Aspire Academy Dakar,174,72.6,31.0,10.53,80.4,53.1,5,28.2,interceptions_par_match,3.3,59.3
+IS-086,Modou Diallo,16,Défenseur,Diourbel Espoir Foot,175,68.9,27.7,10.71,74.1,63.6,0,40.5,tacles_reussis_pct,81.6,59.1
+IS-172,Ibrahima Niang,17,Gardien,Thiès Foot Élite,190,84.2,26.0,5.05,63.8,51.5,0,0.0,arrets_pct,72.8,58.8
+IS-038,Malick Niang,15,Milieu,AS Pikine Formation,173,67.8,27.5,10.39,78.2,71.6,5,30.4,interceptions_par_match,2.9,58.7
+IS-025,Abdoulaye Diouf,17,Milieu,Académie Mbour Sport,186,77.7,31.1,10.5,79.6,50.6,2,53.0,interceptions_par_match,3.1,58.4
+IS-083,Souleymane Cissé,17,Gardien,Diourbel Espoir Foot,179,72.6,24.5,4.19,68.3,60.0,0,0.0,arrets_pct,69.6,58.0
+IS-123,Babacar Sy,17,Milieu,AS Pikine Formation,185,72.9,31.3,9.75,92.1,51.3,4,23.1,interceptions_par_match,1.8,57.9
+IS-109,Ibrahima Sow,17,Attaquant,Saint-Louis Jeunes Talents,181,66.8,35.8,8.87,69.7,50.9,7,46.0,efficacite_finition_pct,34.6,57.6
+IS-069,Babacar Diop,18,Défenseur,AS Pikine Formation,178,64.9,27.9,9.41,83.5,64.2,1,35.2,tacles_reussis_pct,72.7,57.5
+IS-073,Alioune Diagne,15,Défenseur,Thiès Foot Élite,168,66.8,29.2,9.88,77.1,75.1,0,59.7,tacles_reussis_pct,68.2,56.8
+IS-179,Assane Niang,16,Milieu,Génération Foot (Dakar),168,67.6,29.4,11.85,73.8,57.4,4,16.2,interceptions_par_match,3.5,56.6
+IS-112,Alioune Sarr,16,Défenseur,AS Pikine Formation,174,68.5,25.3,11.29,81.6,62.7,2,18.1,tacles_reussis_pct,79.5,56.6
+IS-159,Pape Diagne,17,Attaquant,Saint-Louis Jeunes Talents,177,70.1,29.3,8.81,75.3,56.9,13,48.7,efficacite_finition_pct,41.5,56.5
+IS-023,Babacar Sow,18,Attaquant,Diourbel Espoir Foot,169,65.6,29.8,9.45,73.6,58.8,2,55.4,efficacite_finition_pct,42.1,56.5
+IS-162,Idrissa Faye,15,Défenseur,Diambars (Saly),173,71.6,27.7,10.85,75.0,68.6,1,36.4,tacles_reussis_pct,75.9,55.9
+IS-129,Serigne Diallo,16,Attaquant,AS Pikine Formation,171,69.4,32.4,8.33,69.7,57.3,8,47.7,efficacite_finition_pct,38.7,55.7
+IS-128,Assane Sene,16,Défenseur,Académie Mbour Sport,182,76.2,29.1,10.16,79.9,65.7,3,22.2,tacles_reussis_pct,69.6,55.7
+IS-119,Modou Ba,19,Attaquant,AS Pikine Formation,177,68.5,32.2,8.76,76.7,48.5,13,37.0,efficacite_finition_pct,41.0,55.5
+IS-022,Aliou Ndiaye,17,Attaquant,Diambars (Saly),177,70.0,32.9,9.31,72.9,57.8,9,48.0,efficacite_finition_pct,31.5,55.1
+IS-166,Fallou Diouf,17,Milieu,Académie Mbour Sport,175,68.1,27.9,11.17,82.3,49.9,3,50.2,interceptions_par_match,3.3,54.7
+IS-071,Lamine Sene,17,Milieu,Diambars (Saly),169,63.5,26.0,10.79,78.7,57.3,3,42.3,interceptions_par_match,3.5,54.3
+IS-175,Moussa Sene,17,Attaquant,Diambars (Saly),182,71.6,32.0,8.33,67.1,50.7,8,48.7,efficacite_finition_pct,43.4,54.3
+IS-168,Aliou Niang,16,Attaquant,Saint-Louis Jeunes Talents,178,70.0,29.9,7.86,73.3,58.1,11,55.3,efficacite_finition_pct,39.8,54.2
+IS-102,El Hadji Sow,16,Milieu,Thiès Foot Élite,178,68.9,28.0,11.4,83.9,62.2,6,54.5,interceptions_par_match,2.3,54.2
+IS-148,Ibrahima Camara,15,Milieu,Académie Mbour Sport,178,68.7,27.5,10.45,84.0,53.5,3,37.0,interceptions_par_match,3.2,53.7
+IS-136,Alioune Diallo,17,Défenseur,AS Pikine Formation,176,62.9,29.2,9.43,92.2,51.8,1,21.5,tacles_reussis_pct,66.1,53.7
+IS-106,Assane Diagne,17,Milieu,AS Pikine Formation,166,66.4,29.1,11.14,71.1,66.3,1,34.4,interceptions_par_match,2.6,53.3
+IS-134,Mor Faye,17,Milieu,Saint-Louis Jeunes Talents,171,67.0,26.6,10.92,82.7,56.4,0,49.9,interceptions_par_match,2.9,52.9
+IS-158,Alioune Thiam,15,Défenseur,Diambars (Saly),174,66.7,25.3,9.97,87.5,67.4,1,28.3,tacles_reussis_pct,70.2,52.9
+IS-054,Fallou Sow,15,Défenseur,Diambars (Saly),177,68.2,28.4,8.44,68.3,67.4,0,10.0,tacles_reussis_pct,76.3,52.9
+IS-163,Pape Faye,17,Défenseur,Académie Mbour Sport,169,69.3,31.8,9.19,69.7,57.0,2,41.0,tacles_reussis_pct,70.8,52.5
+IS-014,Fallou Ba,18,Défenseur,Thiès Foot Élite,168,62.7,30.1,10.11,77.1,63.7,0,40.4,tacles_reussis_pct,66.4,51.9
+IS-016,Ousmane Toure,18,Attaquant,Diourbel Espoir Foot,175,69.0,31.6,8.19,80.8,46.1,5,53.1,efficacite_finition_pct,34.4,51.8
+IS-084,Fallou Niang,16,Milieu,Thiès Foot Élite,171,65.2,28.5,11.53,84.1,51.3,5,47.0,interceptions_par_match,2.7,51.6
+IS-007,Boubacar Lo,16,Défenseur,Académie Mbour Sport,173,68.7,28.0,10.17,74.0,61.5,1,20.6,tacles_reussis_pct,73.9,51.5
+IS-029,Lamine Ndoye,18,Attaquant,AS Pikine Formation,175,69.0,30.9,9.15,78.4,56.9,10,50.2,efficacite_finition_pct,30.2,51.5
+IS-157,Cheikh Sow,16,Gardien,Aspire Academy Dakar,181,72.3,23.9,5.79,69.9,59.2,0,0.0,arrets_pct,66.1,51.5
+IS-013,Ibrahima Thiam,15,Attaquant,Aspire Academy Dakar,171,74.2,31.9,9.91,72.8,62.9,7,38.5,efficacite_finition_pct,29.3,51.0
+IS-146,Babacar Wade,16,Milieu,Saint-Louis Jeunes Talents,174,71.3,31.7,11.38,74.7,62.7,5,55.6,interceptions_par_match,1.8,51.0
+IS-092,Alioune Camara,17,Défenseur,Thiès Foot Élite,180,73.0,28.3,9.8,88.3,47.8,0,28.5,tacles_reussis_pct,70.1,51.0
+IS-095,Souleymane Sarr,15,Défenseur,Aspire Academy Dakar,167,65.2,29.1,10.13,70.1,70.0,0,42.6,tacles_reussis_pct,69.9,51.0
+IS-097,Moussa Ndiaye,16,Attaquant,Académie Mbour Sport,173,68.1,30.7,7.96,67.7,48.0,18,50.4,efficacite_finition_pct,46.0,50.9
+IS-042,Pape Diop,17,Milieu,Diambars (Saly),170,71.4,30.9,11.11,84.0,53.2,5,56.3,interceptions_par_match,1.7,50.9
+IS-078,Abdoulaye Wade,18,Défenseur,Thiès Foot Élite,176,69.1,26.8,9.71,77.8,54.4,1,26.1,tacles_reussis_pct,77.4,50.6
+IS-001,Idrissa Fall,15,Défenseur,AS Pikine Formation,180,71.8,25.2,8.76,78.8,61.8,1,24.8,tacles_reussis_pct,77.0,50.4
+IS-027,Ibrahima Mbaye,19,Attaquant,Académie Mbour Sport,176,66.3,31.9,7.56,68.9,67.1,12,42.4,efficacite_finition_pct,28.9,50.3
+IS-070,Moussa Fall,15,Gardien,Académie Mbour Sport,182,73.3,24.9,5.55,62.5,67.5,0,0.0,arrets_pct,63.3,50.0
+IS-140,Lamine Diagne,17,Milieu,Thiès Foot Élite,172,71.5,28.5,11.08,77.0,64.2,1,33.8,interceptions_par_match,2.0,50.0
+IS-165,Moussa Sy,16,Milieu,Saint-Louis Jeunes Talents,176,66.1,29.4,11.28,78.8,55.6,0,20.2,interceptions_par_match,2.4,49.6
+IS-090,Moussa Kane,16,Défenseur,AS Pikine Formation,178,70.8,28.1,9.88,78.5,71.9,1,39.2,tacles_reussis_pct,62.1,49.6
+IS-145,El Hadji Sarr,17,Attaquant,Diourbel Espoir Foot,179,74.0,33.9,6.94,60.2,57.2,9,49.4,efficacite_finition_pct,33.8,49.4
+IS-098,Boubacar Fall,15,Gardien,Diambars (Saly),187,71.8,22.3,4.15,58.4,71.9,0,0.0,arrets_pct,71.3,49.2
+IS-111,Youssou Camara,17,Milieu,Diourbel Espoir Foot,170,65.4,28.9,10.65,69.5,58.7,5,29.1,interceptions_par_match,2.9,49.1
+IS-032,Assane Camara,17,Milieu,Thiès Foot Élite,180,72.3,27.0,8.72,80.3,54.7,4,47.0,interceptions_par_match,2.7,49.0
+IS-114,Mor Wade,18,Attaquant,Diourbel Espoir Foot,180,74.4,32.1,8.33,70.7,58.1,15,49.5,efficacite_finition_pct,29.8,48.9
+IS-150,Aliou Thiam,18,Attaquant,Académie Mbour Sport,166,67.9,30.8,7.54,65.6,40.4,12,62.5,efficacite_finition_pct,50.8,48.9
+IS-050,Lamine Camara,15,Défenseur,Saint-Louis Jeunes Talents,176,70.7,27.1,8.77,82.3,65.7,0,52.4,tacles_reussis_pct,66.5,48.9
+IS-180,Lamine Seck,18,Milieu,Génération Foot (Dakar),174,63.5,25.2,10.09,80.8,56.6,4,47.9,interceptions_par_match,3.1,48.7
+IS-174,Aliou Wade,15,Défenseur,AS Pikine Formation,170,64.4,25.5,9.81,77.3,60.7,3,41.6,tacles_reussis_pct,75.8,48.4
+IS-132,Amadou Fall,16,Défenseur,Saint-Louis Jeunes Talents,183,74.5,26.0,9.84,77.3,72.2,1,26.7,tacles_reussis_pct,65.9,48.4
+IS-118,El Hadji Diallo,15,Défenseur,Saint-Louis Jeunes Talents,188,70.6,25.5,9.89,84.8,63.9,0,32.7,tacles_reussis_pct,68.7,48.3
+IS-065,Modou Niang,18,Attaquant,Saint-Louis Jeunes Talents,174,69.7,29.8,8.78,74.3,65.3,13,46.9,efficacite_finition_pct,26.8,48.3
+IS-142,Boubacar Diallo,19,Milieu,Académie Mbour Sport,167,66.8,28.9,10.39,80.4,48.9,6,51.2,interceptions_par_match,2.9,48.2
+IS-056,Alioune Fall,17,Attaquant,Saint-Louis Jeunes Talents,171,60.9,31.1,8.16,73.9,53.0,13,30.0,efficacite_finition_pct,30.6,48.1
+IS-059,Youssou Diouf,15,Attaquant,Saint-Louis Jeunes Talents,174,69.9,32.6,9.11,65.2,46.0,11,48.5,efficacite_finition_pct,42.9,48.0
+IS-009,Boubacar Sow,18,Attaquant,Aspire Academy Dakar,177,68.6,30.1,8.34,66.3,52.3,12,34.2,efficacite_finition_pct,41.9,47.7
+IS-130,Modou Diop,15,Attaquant,Aspire Academy Dakar,185,74.8,33.2,8.54,76.6,64.4,10,57.1,efficacite_finition_pct,16.9,47.4
+IS-044,Assane Kane,18,Milieu,Génération Foot (Dakar),177,67.3,28.1,9.28,75.0,59.7,3,37.5,interceptions_par_match,2.5,47.3
+IS-036,Mor Kane,15,Attaquant,Thiès Foot Élite,182,71.4,32.9,8.35,74.0,57.9,14,45.3,efficacite_finition_pct,24.7,47.3
+IS-131,Mor Mbaye,15,Défenseur,Génération Foot (Dakar),167,67.6,28.5,10.03,84.5,51.6,2,35.1,tacles_reussis_pct,68.4,46.7
+IS-030,Souleymane Sy,18,Attaquant,AS Pikine Formation,183,75.4,31.7,9.69,67.5,48.4,10,54.8,efficacite_finition_pct,38.1,46.6
+IS-088,Assane Toure,15,Défenseur,Diambars (Saly),183,77.6,29.6,9.58,74.4,64.1,2,37.2,tacles_reussis_pct,64.8,46.6
+IS-089,Alioune Ba,18,Défenseur,Aspire Academy Dakar,183,75.4,29.5,10.28,81.1,56.3,2,18.7,tacles_reussis_pct,63.6,46.4
+IS-046,Babacar Gueye,17,Gardien,AS Pikine Formation,182,73.2,26.4,5.94,66.7,54.1,0,0.0,arrets_pct,56.4,46.4
+IS-167,Boubacar Ndoye,17,Milieu,Génération Foot (Dakar),185,74.5,29.7,11.54,80.6,63.5,5,32.0,interceptions_par_match,1.0,46.3
+IS-154,Assane Mbaye,18,Défenseur,Génération Foot (Dakar),170,71.3,26.5,9.33,71.9,70.1,2,14.4,tacles_reussis_pct,66.8,45.8
+IS-045,Idrissa Ba,17,Milieu,Diourbel Espoir Foot,170,67.2,30.0,12.63,79.5,55.9,1,29.7,interceptions_par_match,1.5,45.3
+IS-141,Mor Sarr,19,Milieu,AS Pikine Formation,168,69.1,29.6,9.74,75.3,53.6,1,29.5,interceptions_par_match,2.5,45.3
+IS-135,Souleymane Niang,15,Attaquant,Aspire Academy Dakar,166,61.6,30.7,9.01,68.8,57.0,8,55.0,efficacite_finition_pct,33.2,45.0
+IS-028,Cheikh Cissé,17,Attaquant,Diourbel Espoir Foot,172,70.0,33.2,6.67,73.8,55.6,11,60.9,efficacite_finition_pct,19.4,45.0
+IS-091,Mamadou Diouf,16,Milieu,Génération Foot (Dakar),184,72.8,32.7,10.71,78.5,43.3,1,37.4,interceptions_par_match,2.0,44.9
+IS-110,Moussa Lo,16,Milieu,Génération Foot (Dakar),175,70.6,31.9,11.92,85.8,47.4,5,44.0,interceptions_par_match,1.2,44.7
+IS-120,Aliou Sene,16,Attaquant,Académie Mbour Sport,172,72.2,31.3,7.62,73.9,45.8,12,38.5,efficacite_finition_pct,32.9,44.6
+IS-125,Youssou Sene,15,Milieu,Génération Foot (Dakar),170,65.5,30.9,11.53,79.1,55.3,3,31.8,interceptions_par_match,1.6,44.5
+IS-033,Cheikh Diagne,16,Attaquant,AS Pikine Formation,168,62.1,33.6,8.19,75.1,52.9,9,54.6,efficacite_finition_pct,20.1,44.3
+IS-049,Babacar Ndiaye,15,Milieu,Diambars (Saly),179,68.1,31.8,10.24,76.2,61.8,5,44.5,interceptions_par_match,1.1,44.2
+IS-144,Assane Diop,15,Défenseur,Diourbel Espoir Foot,173,68.9,27.9,9.68,74.6,60.9,1,40.3,tacles_reussis_pct,67.6,44.1
+IS-127,Moussa Seck,17,Gardien,Diambars (Saly),180,67.4,25.8,5.08,67.0,45.4,0,0.0,arrets_pct,60.1,43.7
+IS-156,Boubacar Camara,19,Attaquant,Diambars (Saly),174,67.3,32.5,7.08,68.1,56.7,5,55.3,efficacite_finition_pct,27.2,43.4
+IS-105,Aliou Mbaye,15,Défenseur,AS Pikine Formation,180,69.6,28.1,7.82,72.0,72.6,0,30.8,tacles_reussis_pct,60.6,43.3
+IS-066,Pape Mbaye,16,Attaquant,Académie Mbour Sport,173,73.0,31.0,8.0,73.9,51.8,10,50.2,efficacite_finition_pct,27.7,43.2
+IS-115,Malick Camara,17,Défenseur,Thiès Foot Élite,182,70.4,27.0,8.49,79.4,63.4,1,10.0,tacles_reussis_pct,60.0,42.8
+IS-072,Malick Ba,17,Attaquant,AS Pikine Formation,174,72.2,31.1,6.5,61.8,48.3,7,44.7,efficacite_finition_pct,38.3,42.7
+IS-151,Mamadou Ba,16,Milieu,Aspire Academy Dakar,169,60.5,30.0,9.84,81.2,47.1,4,50.2,interceptions_par_match,1.9,42.7
+IS-017,Cheikh Diop,18,Attaquant,Aspire Academy Dakar,168,66.7,27.9,8.46,66.9,45.2,5,45.3,efficacite_finition_pct,46.2,42.4
+IS-051,Babacar Sene,17,Défenseur,Saint-Louis Jeunes Talents,174,68.2,30.8,8.97,63.5,75.3,4,30.1,tacles_reussis_pct,54.5,42.4
+IS-047,Fallou Toure,17,Défenseur,Thiès Foot Élite,180,77.6,30.6,9.6,80.2,47.1,0,31.5,tacles_reussis_pct,61.4,42.3
+IS-139,El Hadji Wade,16,Gardien,AS Pikine Formation,191,77.7,24.2,6.05,57.1,58.3,0,0.0,arrets_pct,64.9,42.2
+IS-093,Fallou Diagne,18,Attaquant,Génération Foot (Dakar),168,65.5,30.9,9.06,72.7,55.0,15,28.4,efficacite_finition_pct,25.2,42.0
+IS-094,Mamadou Cissé,15,Milieu,Diambars (Saly),175,66.5,28.0,13.0,90.8,55.1,2,28.5,interceptions_par_match,0.9,41.1
+IS-035,Modou Fall,15,Défenseur,Génération Foot (Dakar),181,70.2,31.4,8.69,80.4,56.7,1,33.4,tacles_reussis_pct,55.4,41.0
+IS-099,Malick Fall,17,Milieu,AS Pikine Formation,176,71.6,30.5,10.31,73.3,49.7,3,43.3,interceptions_par_match,1.9,40.8
+IS-143,Serigne Mbaye,18,Défenseur,Génération Foot (Dakar),175,70.3,29.7,10.77,84.7,52.9,1,47.2,tacles_reussis_pct,56.7,40.8
+IS-121,Babacar Ndoye,16,Attaquant,Aspire Academy Dakar,165,65.9,31.9,10.1,72.8,55.5,11,55.2,efficacite_finition_pct,20.0,40.3
+IS-011,Mor Toure,18,Attaquant,Diambars (Saly),177,72.9,30.1,8.19,63.7,60.1,8,36.2,efficacite_finition_pct,28.9,39.7
+IS-126,Mamadou Sy,17,Gardien,Diambars (Saly),183,75.9,22.6,5.52,66.2,63.1,0,0.0,arrets_pct,57.9,39.7
+IS-122,Lamine Thiam,18,Gardien,Diambars (Saly),190,75.3,22.1,4.74,46.0,57.9,0,0.0,arrets_pct,76.6,39.6
+IS-104,Ousmane Sow,17,Milieu,Académie Mbour Sport,169,64.1,28.7,10.44,67.2,59.8,5,24.2,interceptions_par_match,2.0,39.6
+IS-008,Serigne Sy,17,Attaquant,Thiès Foot Élite,178,68.0,31.8,8.16,71.5,41.5,3,37.4,efficacite_finition_pct,29.0,39.6
+IS-100,Aliou Diagne,18,Attaquant,Académie Mbour Sport,174,64.4,30.0,9.85,68.8,63.4,9,44.7,efficacite_finition_pct,21.7,39.3
+IS-082,Aliou Gueye,15,Attaquant,AS Pikine Formation,179,72.2,31.0,7.18,65.7,46.8,9,45.8,efficacite_finition_pct,35.0,38.7
+IS-077,Aliou Toure,15,Attaquant,Diambars (Saly),189,75.4,28.6,8.86,74.9,45.7,6,59.0,efficacite_finition_pct,33.6,38.3
+IS-178,Alioune Gueye,15,Attaquant,Académie Mbour Sport,167,69.0,29.9,8.47,71.5,47.8,8,57.8,efficacite_finition_pct,30.7,37.6
+IS-160,Assane Ndiaye,19,Gardien,AS Pikine Formation,190,77.7,24.0,5.76,70.0,47.4,0,0.0,arrets_pct,59.1,36.6
+IS-124,Assane Sow,17,Milieu,Académie Mbour Sport,171,66.1,32.0,10.59,69.3,52.4,4,44.0,interceptions_par_match,1.2,36.6
+IS-103,Youssou Seck,16,Attaquant,Diourbel Espoir Foot,168,66.5,31.6,9.45,59.0,38.9,12,48.5,efficacite_finition_pct,40.3,36.2
+IS-058,Babacar Diagne,17,Attaquant,Aspire Academy Dakar,175,72.9,32.0,8.33,64.7,42.5,12,45.2,efficacite_finition_pct,28.8,35.5
+IS-031,Idrissa Seck,17,Gardien,Aspire Academy Dakar,173,66.3,22.0,6.46,64.3,61.0,0,0.0,arrets_pct,58.0,35.3
+IS-137,Amadou Ndiaye,19,Milieu,Génération Foot (Dakar),176,68.2,31.3,10.65,76.5,42.1,4,38.9,interceptions_par_match,1.7,35.2
+IS-020,Boubacar Niang,16,Attaquant,Diourbel Espoir Foot,169,72.5,30.9,7.8,71.4,40.9,3,65.0,efficacite_finition_pct,26.4,33.5
+IS-164,Malick Diallo,18,Milieu,Aspire Academy Dakar,186,74.9,30.2,11.32,77.0,45.3,2,29.1,interceptions_par_match,1.3,33.3
+IS-079,Malick Thiam,17,Défenseur,Diambars (Saly),177,72.5,26.7,10.68,75.5,54.1,1,40.6,tacles_reussis_pct,57.8,32.7
+IS-155,Idrissa Camara,18,Attaquant,Thiès Foot Élite,171,65.1,30.4,7.48,72.6,45.2,0,45.0,efficacite_finition_pct,21.8,32.1
+IS-041,Pape Ndoye,15,Défenseur,AS Pikine Formation,178,66.1,27.3,8.6,60.2,60.2,3,40.2,tacles_reussis_pct,65.5,32.0
+IS-064,Babacar Mbaye,17,Gardien,Diambars (Saly),182,75.4,23.4,5.41,62.0,48.7,0,0.0,arrets_pct,53.7,27.3
+IS-153,Souleymane Camara,16,Défenseur,Diambars (Saly),169,70.1,23.5,10.75,59.7,59.7,2,31.2,tacles_reussis_pct,58.3,19.1
