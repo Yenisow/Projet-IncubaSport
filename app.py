@@ -163,11 +163,16 @@ f_score = st.sidebar.slider(
     help="Filtre les joueurs dont le score de potentiel est au moins égal à cette valeur.",
 )
 
+if "page" not in st.session_state:
+    st.session_state["page"] = "🏆 Vue Superviseur"
+if "joueur_selectionne" not in st.session_state:
+    st.session_state["joueur_selectionne"] = None
+
 st.sidebar.markdown("---")
 page = st.sidebar.radio(
     "📄 Navigation",
     ["🏆 Vue Superviseur", "🔎 Fiche Joueur"],
-    label_visibility="visible",
+    key="page",
 )
 
 st.sidebar.markdown("---")
@@ -304,6 +309,13 @@ def radar_joueur(row, df_ref):
     return fig
 
 
+def selectionner_joueur(nom):
+    """Callback exécuté avant le rerun : peut modifier st.session_state['page']
+    sans conflit avec le widget de navigation (key='page')."""
+    st.session_state["joueur_selectionne"] = nom
+    st.session_state["page"] = "🔎 Fiche Joueur"
+
+
 # ==============================================================
 # 5. PAGE — VUE SUPERVISEUR
 # ==============================================================
@@ -319,7 +331,7 @@ if page == "🏆 Vue Superviseur":
     top5 = df_f.sort_values("score_potentiel", ascending=False).head(5)
 
     for _, r in top5.iterrows():
-        cols = st.columns([0.7, 2.3, 1.2, 1.4, 1.6, 1.3])
+        cols = st.columns([0.6, 2.2, 1.3, 1.3, 1.6, 1.1, 1.5])
         cols[0].markdown(silhouette_svg(r["poste"], 55), unsafe_allow_html=True)
         cols[1].markdown(f"**{r['nom']}**  \n{r['poste']} · {r['age']} ans")
         cols[2].markdown(f"📍 {r['academie'].split(' (')[0]}")
@@ -327,6 +339,12 @@ if page == "🏆 Vue Superviseur":
         badge = " <span class='pepite-badge'>💎 PÉPITE</span>" if r["score_potentiel"] >= SEUIL_PEPITE else ""
         cols[4].markdown(f"**Score : {r['score_potentiel']}/100**{badge}", unsafe_allow_html=True)
         cols[5].progress(min(int(r["score_potentiel"]), 100) / 100)
+        cols[6].button(
+            "Voir la fiche →",
+            key=f"fiche_{r['id_joueur']}",
+            on_click=selectionner_joueur,
+            args=(r["nom"],),
+        )
 
     st.markdown("---")
 
@@ -371,7 +389,9 @@ else:
     st.markdown("### 🔎 Fiche détaillée du joueur")
 
     noms_disponibles = df_f.sort_values("score_potentiel", ascending=False)["nom"].tolist()
-    nom_choisi = st.selectbox("Sélectionner un joueur", noms_disponibles)
+    joueur_prefere = st.session_state.get("joueur_selectionne")
+    index_defaut = noms_disponibles.index(joueur_prefere) if joueur_prefere in noms_disponibles else 0
+    nom_choisi = st.selectbox("Sélectionner un joueur", noms_disponibles, index=index_defaut)
     row = df_f[df_f["nom"] == nom_choisi].iloc[0]
 
     col_photo, col_info, col_score = st.columns([1, 2.2, 1.3])
