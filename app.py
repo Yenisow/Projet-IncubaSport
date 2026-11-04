@@ -1,9 +1,8 @@
 """
-app.py — IncubaSport Talent Radar
+app.py — PitchPerf
 ------------------------------------------------------------
 Tableau de bord de détection statistique de jeunes talents du
-football sénégalais, conçu pour le pitch devant le jury
-FODEM / WorkingFit (programme IncubaSport).
+football sénégalais.
 
 Lancer avec :  streamlit run app.py
 ------------------------------------------------------------
@@ -17,13 +16,10 @@ import streamlit as st
 # ==============================================================
 # 0. CONFIGURATION GÉNÉRALE & CHARTE VISUELLE
 # ==============================================================
-# NOTE IMPORTANTE (voir DOCUMENTATION.md, section "Charte graphique") :
-# IncubaSport n'a pas encore publié de charte graphique officielle
-# publique au moment de la création de ce projet. La palette
-# ci-dessous est une proposition professionnelle inspirée du
-# territoire (vert/or du Sénégal, sobriété "data/tech"), facile à
-# remplacer par les vraies couleurs dès qu'elles seront fournies :
-# il suffit de modifier les valeurs hexadécimales ci-dessous.
+# NOTE : la palette ci-dessous est une proposition professionnelle
+# inspirée du territoire (vert/or du Sénégal, sobriété "data/tech"),
+# facile à remplacer par une autre charte : il suffit de modifier
+# les valeurs hexadécimales ci-dessous.
 
 COLOR_PRIMARY = "#1E9E6E"     # vert — sport, croissance, terrain (éclairci pour ressortir sur fond sombre)
 COLOR_ACCENT = "#F2A900"      # or — excellence, énergie, détection de pépites
@@ -36,7 +32,7 @@ COLOR_GRID = "rgba(238,243,240,0.10)"   # grille des graphiques, discrète sur f
 COLOR_AXIS = "rgba(238,243,240,0.35)"   # lignes d'axe des graphiques
 
 st.set_page_config(
-    page_title="IncubaSport Talent Radar",
+    page_title="PitchPerf",
     page_icon="⚽",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -134,9 +130,8 @@ SEUIL_PEPITE = df["score_potentiel"].quantile(0.90)
 st.markdown(
     """
     <div class="header-banner">
-        <h1>⚽ IncubaSport Talent Radar</h1>
-        <p>Plateforme d'analyse statistique et de détection des jeunes talents du football sénégalais —
-        Projet incubé FODEM × WorkingFit</p>
+        <h1>⚽ PitchPerf</h1>
+        <p>Plateforme d'analyse statistique et de détection des jeunes talents du football sénégalais</p>
     </div>
     """,
     unsafe_allow_html=True,
@@ -309,13 +304,6 @@ def radar_joueur(row, df_ref):
     return fig
 
 
-def selectionner_joueur(nom):
-    """Callback exécuté avant le rerun : peut modifier st.session_state['page']
-    sans conflit avec le widget de navigation (key='page')."""
-    st.session_state["joueur_selectionne"] = nom
-    st.session_state["page"] = "🔎 Fiche Joueur"
-
-
 # ==============================================================
 # 5. PAGE — VUE SUPERVISEUR
 # ==============================================================
@@ -339,12 +327,10 @@ if page == "🏆 Vue Superviseur":
         badge = " <span class='pepite-badge'>💎 PÉPITE</span>" if r["score_potentiel"] >= SEUIL_PEPITE else ""
         cols[4].markdown(f"**Score : {r['score_potentiel']}/100**{badge}", unsafe_allow_html=True)
         cols[5].progress(min(int(r["score_potentiel"]), 100) / 100)
-        cols[6].button(
-            "Voir la fiche →",
-            key=f"fiche_{r['id_joueur']}",
-            on_click=selectionner_joueur,
-            args=(r["nom"],),
-        )
+        if cols[6].button("Voir la fiche →", key=f"fiche_{r['id_joueur']}"):
+            st.session_state["joueur_selectionne"] = r["nom"]
+            st.session_state["page"] = "🔎 Fiche Joueur"
+            st.rerun()
 
     st.markdown("---")
 
